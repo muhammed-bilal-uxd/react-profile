@@ -1,4 +1,3 @@
-import { Profiler, useState } from 'react'
 import './App.css'
 import ProfileCard from './components/ProfileCard.tsx'
 
@@ -15,6 +14,8 @@ function App() {
     status="Online"
     contactText="Contact Me"
     avatarUrl="https://reactbits.dev/assets/demo/person.webp"
+    iconUrl="https://reactbits.dev/assets/demo/iconpattern.png"
+    grainUrl="https://reactbits.dev/assets/demo/grain.webp"
     showUserInfo={true}
     enableTilt={true}
     enableMobileTilt={false}
